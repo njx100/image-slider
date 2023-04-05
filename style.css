@@ -1,1 +1,50 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: wheat;
+}
 
+.slider-container {
+    position: relative;
+    width: 500px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,.3);
+}
+
+.image-container {
+    display: flex;
+    
+}
+
+.btn {
+    position: absolute;
+    color: white;
+    opacity: .5;
+    font-size: 20px;
+    transform: translateY(-50%);
+    top: 50%;
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+.btn-previous {
+    left: 10px;
+    
+}
+
+.btn-next {
+    right: 10px;
+    
+}
+
+.btn:active {
+    opacity: .5;
+}
